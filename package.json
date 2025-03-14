@@ -9,9 +9,21 @@
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^7.0.3"
-  }
+    "mongoose": "^7.8.6"
+  },
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yogaraaj2005/Second_Hand_Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yogaraaj2005/Second_Hand_Backend/issues"
+  },
+  "homepage": "https://github.com/Yogaraaj2005/Second_Hand_Backend#readme"
 }
