@@ -15,12 +15,17 @@ const app = express();
 app.use(express.json());
 
 // 🔹 CORS Configuration (Allow only your frontend)
-app.use(
-  cors({
-    origin: "https://unique-figolla-017148.netlify.app" || "*", // Update .env with your frontend URL
-    credentials: true, // Enables cookies if needed
-  })
-);
+
+const cors = require("cors");
+
+const allowedOrigins = [
+  "https://unique-figolla-017148.netlify.app" // Make sure there's no trailing slash
+];
+
+app.use(cors({
+  origin: allowedOrigins,
+  credentials: true // Allow cookies if needed
+}));
 
 
 
