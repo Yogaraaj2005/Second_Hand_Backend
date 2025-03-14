@@ -9,6 +9,6 @@ router.route("/").get(getProducts);
 router.route("/:id").get(getProductById);
 
 // Protected Routes (Only logged-in users can add products)
-router.route("/").post(protect, createProduct);
+router.route("").post(protect, createProduct);
 
 export default router;
