@@ -17,7 +17,7 @@ app.use(express.json());
 // 🔹 CORS Configuration (Allow only your frontend)
 app.use(
   cors({
-    origin: "https://unique-figolla-017148.netlify.app/" || "*", // Update .env with your frontend URL
+    origin: "https://unique-figolla-017148.netlify.app" || "*", // Update .env with your frontend URL
     credentials: true, // Enables cookies if needed
   })
 );
